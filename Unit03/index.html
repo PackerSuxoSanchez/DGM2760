@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 Guessing Game</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1></h1>
+        <h2></h2>
+    </header>
+    <main>
+        <h1>High-Low Guessing Game</h1>
+        <h2>What I learned</h2>
+        <ul>
+            <li>Implement functions</li>
+            <li>Implement a multi-level if-then-else</li>
+            <li>Use innerText to provide user feedback</li>
+            <li>Implement a switch statement</li>
+            <li>Dynamically load a graphic</li>
+            <li>Create and append an image element</li>
+        </ul>
+        <!--INSTRUCTIONS-->
+        <h2>Instructions</h2>
+        <p>Try to guess a random number from 1 to 15 in as few tries as possible.  You will be awarded a ribbon for your guessing skills.</p>
+        <p>If you when and would like to play again, simply refresh the page.</p>
+        <p>Good luck!</p>
+        <!--GAMING AREA-->
+        <div class="gameArea">
+            <div>
+                <h2>Play</h2>
+                <div>
+                    <input id="guess" type="number" placeholder="number"/>
+                    <button onclick="evalGuess()">GUESS!</button>
+                </div>
+            </div>
+            <div>
+                <h2>Attempts</h2>
+                <div id="attempts"></div>
+            </div>
+            <div>
+                <h2>Feedback</h2>
+                <div id="feedback"></div>
+            </div>
+            <div>
+                <h2>Award</h2>
+                <div id="ribbon"></div>
+            </div>
+        </div>
+    </main>
+    <footer>Assignment for DGM2760 by Packer Suxo-Sanchez</footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    </div>
+</body>
+</html>

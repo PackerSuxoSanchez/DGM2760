@@ -1,0 +1,57 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #FFE6E6;
+}
+
+header {
+    background-image: url('../images/bg-guess.png');
+    height: 150px;
+    width: 960px;
+    color: white;
+}
+
+header h2 {
+    margin-top: 3.5em;
+}
+
+.gameArea {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFE6E6;
+}
+
+.gameArea div {
+    width: 15em;
+    height: 17.5em;
+    text-align: center;
+}
+
+.gameArea div h2 {
+    color: white;
+    margin-top: 0;
+    background: #AB052B;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+button {
+    color: white;
+    background-color: #AB052B;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: black;
+}
+
+img {
+    max-width: 10em;
+}
+
+footer {
+    background-color: #AB052B;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
