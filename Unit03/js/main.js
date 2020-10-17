@@ -17,6 +17,11 @@ function evalGuess() {
     gamerGuess = document.querySelector('#guess').value
     console.log(totalGuesses, gamerGuess)
     const feedback = document.querySelector('#feedback')
+    let ribbonImg = document.querySelector('#ribbon')
+
+    while (ribbonImg.firstChild) {
+        ribbonImg.removeChild(ribbonImg.firstChild)
+    }
 
     if (gamerGuess == correctNumber) {
         console.log(`gamerGuess is equal to correctNumber`)
@@ -60,6 +65,5 @@ function giveAward() {
     ribbon.appendChild(awardImage)
     if (ribbon.hasChildNodes()) {
         console.log('This node hasChildNodes')
-        return;
     }
 }
