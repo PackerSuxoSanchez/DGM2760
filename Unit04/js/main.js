@@ -58,19 +58,30 @@ function getFortune(fate) {
     let message
     switch (fate) {
         case 1:
-            message: 'be featured as the strongest superhero in the next Marvel movie!'
+            message = 'be featured as the strongest superhero in the next Marvel movie!'
             break;
         case 2:
-            message: 'win millions of dollars from a long lost uncle in Nigeria'
+            message = 'win millions of dollars from a long lost uncle in Nigeria!'
+            break;
+        case 3:
+            message = 'find $100!'
+            break;
+        case 4:
+            message = 'find a new job!'
+            break;
+        case 5:
+            message = 'find a treasure!'
             break;
         default:
-            message: 'Some sort of error occured'
+            message = 'Some sort of error occured :('
             break;
     }
+    return message
 }
 
 const monthName = getMonthName(month)
+const fortuneMessage = getFortune(fate)
 
-const fortuneRevealed = `On ${monthName} ${day}, you will ${fate}`
+const fortuneRevealed = `On ${monthName} ${day}, you will ${fortuneMessage}`
 
 document.querySelector('#fortune').innerText = fortuneRevealed

@@ -1,0 +1,32 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #D2A6FF;
+}
+
+header {
+    /* background-image: url('../images/fortune-bg.jpg'); */
+    /* background-repeat: no-repeat; */
+    height: 150px;
+    width: 960px;
+}
+
+header h2 {
+    margin-top: 3.5em;
+    text-align: unset;
+}
+
+h2 {
+    text-align: center;
+}
+
+#fortune {
+    text-align: center;
+}
+
+footer {
+    background-color: #562D80;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
