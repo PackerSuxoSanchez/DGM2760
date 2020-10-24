@@ -70,7 +70,7 @@ function getFortune(fate) {
             message = 'find a new job!'
             break;
         case 5:
-            message = 'find a treasure!'
+            message = 'discover a new type of animal!'
             break;
         default:
             message = 'Some sort of error occured :('
