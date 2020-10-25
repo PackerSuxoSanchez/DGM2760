@@ -1,0 +1,71 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    /* background-color: #D2A6FF; */
+}
+
+header {
+    /* background-image: url('../images/crystal-ball.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: -350px; */
+    height: 150px;
+    width: 960px;
+    align-content: space-between;
+}
+
+main {
+    margin: 3rem;
+}
+
+header h1 {
+    /* font-family: 'Alex Brush', cursive; */
+    color: white;
+    margin: 0 auto;
+    padding-top: .5rem;
+    padding-left: 3rem;
+}
+
+header h2 {
+    /* font-family: 'Raleway', sans-serif; */
+    color: white;
+    text-align: start;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+h1 {
+    /* font-family: 'Alex Brush', cursive; */
+}
+
+h2 {
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+ul {
+    /* font-family: 'Raleway', sans-serif; */
+    padding-bottom: 5px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+#fortuneBox {
+    text-align: center;
+    background-color: #999DFF;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fortuneBox h2 {
+    font-family: 'Alex Brush', cursive;
+}
+
+footer {
+    /* font-family: 'Raleway', sans-serif; */
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
