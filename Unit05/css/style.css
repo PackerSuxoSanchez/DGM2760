@@ -1,13 +1,12 @@
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
-    /* background-color: #D2A6FF; */
+    background-color: #EBD9CF;
 }
 
 header {
-    /* background-image: url('../images/crystal-ball.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* background-position-y: -350px; */
+    background-image: url('../images/trees-bg.jpg');
+    background-repeat: no-repeat;
     height: 150px;
     width: 960px;
     align-content: space-between;
@@ -18,7 +17,7 @@ main {
 }
 
 header h1 {
-    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Raleway', sans-serif;
     color: white;
     margin: 0 auto;
     padding-top: .5rem;
@@ -26,7 +25,7 @@ header h1 {
 }
 
 header h2 {
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     color: white;
     text-align: start;
     padding-top: 3rem;
@@ -34,20 +33,39 @@ header h2 {
 }
 
 h1 {
-    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
 
 ul {
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     padding-bottom: 5px;
 }
 
 li {
     padding-bottom: 4px;
+}
+
+button {
+    background-color: #84839E;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    border: 0px;
+    margin: 5px 0;
+    height: 30px;
+    width: 300px;
+    justify-content: center;
+    padding: 7px;
+}
+
+button:hover {
+    background-color: #C2EBB7;
+    color: #9E877B;
+    cursor: pointer;
 }
 
 #fortuneBox {
@@ -63,9 +81,9 @@ li {
 }
 
 footer {
-    /* font-family: 'Raleway', sans-serif; */
-    background-color: green;
+    font-family: 'Raleway', sans-serif;
+    background-color: #C2EBB7;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: #9E877B;
 }
