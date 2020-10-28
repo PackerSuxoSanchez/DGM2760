@@ -53,11 +53,16 @@ document.querySelector('#removeTreeLast').onclick = () => {
 }
 
 document.querySelector('#sortTrees').onclick = () => {
+    trees.sort()
+    listTrees()
+}
+
+/* document.querySelector('#sortTrees').onclick = () => {
     trees.sort((a,b) => {
         return a.toLowerCase().localeCompare(b.toLowerCase())
     })
     listTrees()
-}
+} */
 
 document.querySelector('#lowerTrees').onclick = () => {
     trees.forEach((tree, index, array) => {
