@@ -2,10 +2,30 @@
     max-width: 960px;
     margin: 0 auto;
     background-color: #EBD9CF;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url(/Unit06/images/garden-background.jpg);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rabbitHeader {
+    padding-left: 60px;
 }
 
 main {
     text-align: center;
+}
+
+ul {
+    margin-left: 60px;
+}
+
+li {
+    padding-bottom: 4px;
 }
 
 #storyBoxes {
@@ -28,6 +48,7 @@ button {
     margin-top: 25px;
     border-radius: 5px;
     border: 1px solid #FFFCFA;
+    font-family: 'Raleway', sans-serif;
 }
 
 button:hover {
@@ -37,6 +58,10 @@ button:hover {
 button:active {
     background-color: #CEEBEA;
     color: #6C9E9C;
+}
+
+span {
+    color: #FFFCFA;
 }
 
 footer {

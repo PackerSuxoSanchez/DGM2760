@@ -15,9 +15,7 @@ function tellStory() {
         return verb.toLowerCase();
     })
 
-    const myStory = `Once upon a time there were four ${adj[0]} ${noun[0]}s named Flopsy, Mopsy, Cotton-tail, and Peter. They lived with their mother underneath a ${noun[1]} near a ${adj[1]} ${noun[2]}. Now, my dears, said ${adj[0]} Mrs. Rabbit, you may go over the ${noun[3]} or around the ${noun[4]}, but do not go into Mr. McGregor\'s ${noun[5]}, your father had an accident there and he was put in a ${noun[6]} by Mrs. McGregor. Now ${verb[0]} along, and don't get into mischief. I am going ${verb[1]}ing.`
+    const myStory = `Once upon a time there were four <span>${adj[0]} ${noun[0]}s</span> named Flopsy, Mopsy, Cotton-tail, and Peter. They lived with their mother underneath a <span>${noun[1]}</span> near a <span>${adj[1]} ${noun[2]}</span>. Now, my dears, said <span>${adj[0]}</span> Mrs. Rabbit, you may go over the <span>${noun[3]}</span> or around the <span>${noun[4]}</span>, but do not go into Mr. McGregor\'s <span>${noun[5]}</span>, your father had an accident there and he was put in a <span>${noun[6]}</span> by Mrs. McGregor. Now <span>${verb[0]}</span> along, and don't get into mischief. I am going <span>${verb[1]}ing</span>.`
 
-    // Change story
-
-    document.querySelector('#story').innerText = myStory
+    document.querySelector('#story').innerHTML = myStory
 }
