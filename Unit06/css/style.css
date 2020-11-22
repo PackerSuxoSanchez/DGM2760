@@ -1,0 +1,48 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #EBD9CF;
+}
+
+main {
+    text-align: center;
+}
+
+#storyBoxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#storyBoxes div {
+    margin: 0px 25px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #6C9E9C;
+    color: white;
+    padding: 7.5px 60px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #FFFCFA;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #CEEBEA;
+    color: #6C9E9C;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #CEEBEA;
+    padding: 10px;
+    text-align: center;
+    color: #9E877B;
+}
