@@ -41,6 +41,10 @@ textarea {
     height: 150px;
 }
 
+p {
+    margin: 20px 60px;
+}
+
 button {
     background-color: #6C9E9C;
     color: white;
