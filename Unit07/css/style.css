@@ -1,0 +1,62 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #FFFA8A;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url(/Unit07/images/pizza-background.jpg);
+    background-image: linear-gradient(rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0.75)),
+    url(/Unit07/images/pizza-background.jpg);
+    color: white;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.mainHeader {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+main{
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+ul {
+    margin-left: 60px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+button {
+    background-color: #CE0000;
+    color: white;
+    padding: 7.5px 60px;
+    border-radius: 5px;
+    border: 1px solid #FFFCFA;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #E12301;
+    color: white;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #DBA24A;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
