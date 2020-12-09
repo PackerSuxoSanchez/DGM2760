@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": 50,
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "258 Broad Street",
+            "picture": "room1.jpg" 
+        },
+        {
+            "name": "Sheraton",
+            "rooms": 65,
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double", "Single"],
+            "address": "123 Easy Street",
+            "picture": "room2.jpg" 
+        },
+        {
+            "name": "Hilton",
+            "rooms": 65,
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double", "Single"],
+            "address": "801 Utah Street",
+            "picture": "room3.jpg" 
+        }
+    ]
+}
