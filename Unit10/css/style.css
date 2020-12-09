@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #E8D0D9;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url(/Unit10/images/hotel-background.jpg);
+    background-image: linear-gradient(rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0.75)),
+    url(/Unit10/images/hotel-background.jpg);
+    color: white;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.mainHeader {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+main{
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    display: grid;
+}
+
+ul {
+    margin-left: 60px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #75638B;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
