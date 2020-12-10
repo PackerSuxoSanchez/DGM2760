@@ -15,7 +15,7 @@
         </header>
         <h1 class="mainHeader">Hotel California</h1>
         <h2 class="mainHeader">What I learned</h2>
-        <ul>
+        <ul class="learningPoints">
             <li>Create an external JSON file</li>
             <li>Load the JSON file using the Fetch API</li>
             <li>How to use a try...catch block</li>
@@ -26,18 +26,19 @@
         <main>
             <h2>Select a Hotel</h2>
             <ul class="hotels">
-                <li><a href="#" id="marriott">Marriott Hotel Rooms</a></li>
-                <li><a href="#" id="sheraton">Sheraton Hotel Rooms</a></li>
-                <li><a href="#" id="hilton">Hilton Hotel Rooms</a></li>
+                <li><a href="#" id="marriott" class="hotelOption">Marriott Hotel Rooms</a></li>
+                <li><a href="#" id="sheraton" class="hotelOption">Sheraton Hotel Rooms</a></li>
+                <li><a href="#" id="hilton" class="hotelOption">Hilton Hotel Rooms</a></li>
             </ul>
 
-            <h2 id="hotelName"></h2>
+            <div id="hotelInfo">
+            <h2 id="hotelName">Hotel</h2>
             <h3>Address: <span id="address"></span></h3>
             <p>Number of Rooms: <span id="rooms"></span></p>
             <p>Gym Available: <span id="gym"></span></p>
             <p>Room Types: <span id="type"></span></p>
-
-            <img src="" alt="" id="picture">
+            </div>
+            <img id="picture">
         </main>
         <footer>
             <p>Assignment for DGM2760 by Packer Suxo-Sanchez</p>
