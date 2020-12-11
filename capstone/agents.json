@@ -1,0 +1,22 @@
+{
+    "agents": [
+        {
+            "name": "Donald Trump",
+            "title": "President",
+            "schedule": ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "experience": 4
+        },
+        {
+            "name": "John Doe",
+            "title": "Supervisor",
+            "schedule": ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday"],
+            "experience": 3
+        },
+        {
+            "name": "Jane Doe",
+            "title": "Agent",
+            "schedule": ["Sunday","Monday", "Wednesday", "Thursday", "Friday"],
+            "experience": 1
+        }
+    ]
+}

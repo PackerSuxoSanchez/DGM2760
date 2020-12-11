@@ -1,0 +1,42 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    /* background-image: url(/Unit10/images/hotel-background.jpg);
+    background-image: linear-gradient(rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0.75)),
+    url(/Unit10/images/hotel-background.jpg); */
+    color: white;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.mainHeader {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.learningHeader {
+    margin-left: 60px;
+}
+
+main{
+    padding: 10px 60px;
+}
+
+#learningPoints {
+    margin-left: 60px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
