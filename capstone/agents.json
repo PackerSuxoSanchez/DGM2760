@@ -4,19 +4,22 @@
             "name": "Donald Trump",
             "title": "President",
             "schedule": ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            "experience": 4
+            "experience": 4,
+            "focus": "Managing"
         },
         {
             "name": "John Doe",
             "title": "Supervisor",
             "schedule": ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday"],
-            "experience": 3
+            "experience": 3,
+            "focus": "Processing"
         },
         {
             "name": "Jane Doe",
             "title": "Agent",
             "schedule": ["Sunday","Monday", "Wednesday", "Thursday", "Friday"],
-            "experience": 1
+            "experience": 1,
+            "focus": "Contacts"
         }
     ]
 }

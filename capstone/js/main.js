@@ -1,5 +1,8 @@
-fetch('https://api.covidtracking.com/v1/states/info.json')
-    .then(response => response.json())
-    .then(data => console.log(data));
-
-    
+async function getAgentInfo() {
+    try {
+        const response = await fetch('agents.json')
+        return await response.json()
+    } catch (error) {
+        console.error(error)
+    }
+}
